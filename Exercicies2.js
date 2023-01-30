@@ -8,3 +8,14 @@
 // }
 
 // greatestNumber(10,29);
+
+
+// ###################### 2 ######################
+
+// function returnValue(x) {
+// for(let i = 1; i <= x; i++ ){
+//     console.log(i);
+// }
+
+// }
+// returnValue(10);
