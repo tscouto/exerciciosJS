@@ -19,3 +19,10 @@
 
 // }
 // returnValue(10);
+
+//################### 3 ##########################
+// let texto = 'tiago'
+// for(let i = 0; i < texto.length;i++) {
+//     console.log(texto[i]);
+    
+// }
