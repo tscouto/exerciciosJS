@@ -53,3 +53,13 @@
     //         }
     // } 
     // calculator(10,15, '-');
+
+    // ####################### 7 ###############################
+    // function valor(a,b,c) {
+    //     let valorS = Math.max(a,b,c);
+    //     console.log(valorS)
+    // }
+
+    // valor(3,5,6);
+
+    
