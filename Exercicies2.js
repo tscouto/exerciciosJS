@@ -30,9 +30,26 @@
 //###################### 5 ######################
 //function personAge(age) {
     //     if(age >=18) {
-    //         console.log(`A idade da pessoa e de ${age}, portando e maior de idade`)
+    //         console.log(`The age of the person and ${age}, so he is of legal age`)
     //     } else {
-    //         console.log(`A idade da pessoa e de ${age}, portanto e menor de idade`)
+    //         console.log(`The age of the person and ${age}, so he is a minor`)
     //     }
     // }
     // personAge(17);
+
+    // ###################6 ######################
+
+      // function calculator(number1,number2,multiplicador) {
+    //     if(multiplicador == '+') {
+    //         console.log(number1 + number2);
+    //     }else if(multiplicador == '-') {
+    //         console.log(number1 - number2);
+    //     }else if(multiplicador == '/') {
+    //         console.log(number1 / number2);
+    //     }else if(multiplicador == '*') {
+    //         console.log(number1 * number2);
+    //     }else {
+    //         console.log("Wrong value, enter again");
+    //         }
+    // } 
+    // calculator(10,15, '-');
