@@ -26,3 +26,13 @@
 //     console.log(texto[i]);
     
 // }
+
+//###################### 5 ######################
+//function personAge(age) {
+    //     if(age >=18) {
+    //         console.log(`A idade da pessoa e de ${age}, portando e maior de idade`)
+    //     } else {
+    //         console.log(`A idade da pessoa e de ${age}, portanto e menor de idade`)
+    //     }
+    // }
+    // personAge(17);
