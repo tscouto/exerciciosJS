@@ -1,4 +1,4 @@
-// ###################### 1 ######################
+//  console.log("###################### 1 ######################")
 // function greatestNumber(number1,number2) {
 //     if(number1 > number2){
 //         return number1;
@@ -10,7 +10,7 @@
 // greatestNumber(10,29);
 
 
-// ###################### 2 ######################
+// console.log("###################### 2 ######################")
 
 // function returnValue(x) {
 // for(let i = 1; i <= x; i++ ){
@@ -20,14 +20,14 @@
 // }
 // returnValue(10);
 
-//################### 3 ##########################
+// console.log("###################### 3 ######################")
 // let texto = 'tiago'
 // for(let i = 0; i < texto.length;i++) {
 //     console.log(texto[i]);
     
 // }
 
-//###################### 5 ######################
+// console.log("###################### 5 ######################")
 //function personAge(age) {
     //     if(age >=18) {
     //         console.log(`The age of the person and ${age}, so he is of legal age`)
@@ -37,7 +37,7 @@
     // }
     // personAge(17);
 
-    // ###################6 ######################
+    // console.log("###################### 6 ######################")
 
       // function calculator(number1,number2,multiplicador) {
     //     if(multiplicador == '+') {
@@ -54,7 +54,7 @@
     // } 
     // calculator(10,15, '-');
 
-    // ####################### 7 ###############################
+    // console.log("###################### 7 ######################")
     // function valor(a,b,c) {
     //     let valorS = Math.max(a,b,c);
     //     console.log(valorS)
@@ -62,4 +62,4 @@
 
     // valor(3,5,6);
 
-    
+
