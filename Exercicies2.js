@@ -89,3 +89,28 @@
 //  }
 
 //  fibonacci(8);
+
+// console.log("###################### 10 ######################")
+  // function checkPalindrome(texto) {
+    //     let valor = texto.split("").reverse().join('')
+        
+    //     if(valor === texto) {
+    //         return true;
+    //     }else {
+    //         return false;
+    //     }
+
+    // }
+
+    // console.log(checkPalindrome("ANA"));
+
+    // function checkPalindrome(text) {
+    //     let value = '';
+    //     for(let i = text.length - 1; i >= 0 ; i-- ) {
+    //          value += text[i];  
+            
+    //     }
+    //    return value === text;
+    // }
+    
+    // console.log(checkPalindrome("DSADAS"));
