@@ -27,6 +27,17 @@
     
 // }
 
+// console.log("###################### 4 ######################")
+
+// function multiplyTable (number) {
+    
+//     for(let count =1 ; count <= 10; count++) {
+//         let valor = number * count;
+//         console.log(`${number} x ${count} = ${valor}`);
+//     }
+// }
+// multiplyTable(3);
+
 // console.log("###################### 5 ######################")
 //function personAge(age) {
     //     if(age >=18) {
