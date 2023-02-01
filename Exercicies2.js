@@ -73,4 +73,19 @@
 
     // valor(3,5,6);
 
+// console.log("###################### 8 ######################")
+//  function fibonacci(value) {
+//  let n1 = 0
+//  let n2 = 1
+//  let nextSequence;
 
+//         for (let i = 1; i <= value; i++) {
+            
+//             nextSequence = n1 + n2;
+//             n1 = n2;
+//             n2 = nextSequence;
+//         }
+//         console.log(n1);
+//  }
+
+//  fibonacci(8);
