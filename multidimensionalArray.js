@@ -4,28 +4,28 @@
 
 function tictactoe(array) {
 
-                                 
-   for(let i = 0; i < array.length; i++ ) {
-        if(array[i][0] === array[i][1] && array[i][1] === array[i][2]) {
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i][0] === array[i][1] && array[i][1] === array[i][2]) {
             return `Win player ${array[i][1]}`
         };
-            }
-            for(let i = 0; i < array.length; i++ ) { 
-                if(array[0][i] === array[1][i] && array[1][i] === array[2][i]) {
-                    return `Win player ${array[0][i]}`
-                }
-            };
+    }
+    for (let i = 0; i < array.length; i++) {
+        if (array[0][i] === array[1][i] && array[1][i] === array[2][i]) {
+            return `Win player ${array[0][i]}`
+        }
+    };
 
-            if (array[0][0] === array[1][1] && array[1][1] === array[2][2]){
-                return `Win player ${array[0][0]}`
-            }
-            if (array[0][2] === array[1][1] && array[1][1] === array[2][0]){
-                return `Win player ${array[2][0]}`
-            }
+    if (array[0][0] === array[1][1] && array[1][1] === array[2][2]) {
+        return `Win player ${array[0][0]}`
+    }
+    if (array[0][2] === array[1][1] && array[1][1] === array[2][0]) {
+        return `Win player ${array[2][0]}`
+    }
 
-            return `There was a tie `
+    return `There was a tie `
 
-   }                              
+}
 
 let value = [
     ['x', '0', 'x'],
@@ -83,17 +83,17 @@ Examples:
 */
 
 function Rotate(value) {
-    for(let i = 0; i< value.length; i++) {
-        if(value[i][0] === 1 && value[i][1] === 2 && value[i][2] === 3) {
-           return value[i][0] = value[2][0] , value[i][0] = value[2][1], value[i][0] = value[2][2]
+    for (let i = 0; i < value.length; i++) {
+        if (value[i][0] === 1 && value[i][1] === 2 && value[i][2] === 3) {
+            return value[i][0] = value[2][0], value[i][0] = value[2][1], value[i][0] = value[2][2]
         }
     }
 }
 
 let valuee = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
 ]
 
 console.log(Rotate(valuee));
