@@ -16,6 +16,13 @@ function old_woman(array) {
                 }
             };
 
+            if (array[0][0] === array[1][1] && array[1][1] === array[2][2]){
+                return `Win player ${array[0][0]}`
+            }
+            if (array[0][2] === array[1][1] && array[1][1] === array[2][0]){
+                return `Win player ${array[2][0]}`
+            }
+
             return `There was a tie `
 
    }                              
@@ -32,18 +39,8 @@ let value2 = [
     ['o', 'o', 'x']
 ]
 
-console.log(old_woman(value));
+// console.log(old_woman(value2));
 
-
-// const myArray = [
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9],
-//     [[10, 11, 12], 13, 14],
-//   ];
-  
-//   const myData = myArray[3][1][2];
-//   console.log(myData);
 
 
 
@@ -51,6 +48,9 @@ console.log(old_woman(value));
 // console.log("###################### 2 ######################")
 // Create an array to represent an image and write a function to rotate it 90 degrees clockwise.
 /*
+
+
+
 Examples: 
 (Input)
 [
@@ -81,3 +81,19 @@ Examples:
 ]
 
 */
+
+function Rotate(value) {
+    for(let i = 0; i< value.length; i++) {
+        if(value[i][0] === 1 && value[i][1] === 2 && value[i][2] === 3) {
+           return value[i][0] = value[2][0] , value[i][0] = value[2][1], value[i][0] = value[2][2]
+        }
+    }
+}
+
+let valuee = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+console.log(Rotate(valuee));
