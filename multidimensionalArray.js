@@ -2,7 +2,7 @@
 
 // console.log("###################### 1 ######################")
 
-function old_woman(array) {
+function tictactoe(array) {
 
                                  
    for(let i = 0; i < array.length; i++ ) {
@@ -39,7 +39,7 @@ let value2 = [
     ['o', 'o', 'x']
 ]
 
-// console.log(old_woman(value2));
+console.log(tictactoe(value2));
 
 
 
